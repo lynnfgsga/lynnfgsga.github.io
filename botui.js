@@ -3856,11 +3856,11 @@ function bot_ui_ini() {
     }).then(function() {
         botui.message.add({
             delay: 1100,
-            content: "这里是 cungudafa"
+            content: "这里是 lin的备忘录"
         }).then(function() {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的女孩子~"
+                content: "并不是真正的备忘录哦~"
             }).then(function() {
                 botui.action.button({
                     delay: 1600,
@@ -3895,32 +3895,32 @@ function bot_ui_ini() {
         secondpart = function() {
             botui.message.add({
                 delay: 1500,
-                content: "就读于重庆交通大学"
+                content: "就读于四川交通学校"
             }).then(function() {
                 botui.message.add({
                     delay: 1500,
-                    content: "是在计算机专业学物联网工程的程序媛"
+                    content: "是一个爱折腾的小白"
                 }).then(function() {
                     botui.message.add({
                         delay: 1200,
-                        content: "将敲代码看成一种快乐"
+                        content: "将敲代码看成一种爱好"
                     }).then(function() {
                         botui.message.add({
                             delay: 1500,
-                            content: "主修 Java 和 Python,略知 linux,偶尔也搞 HTML/CSS/JavaScript/Spring"
+                            content: "在校专业是机电控制，涉及一些编程，主要学习HTML，css，js，也在摸索各种框架"
                         }).then(function() {
                             botui.message.add({
                                 delay: 1500,
-                                content: "专业方向，物联网及智能家居(Internet of things)及机器视觉(machine version)"
+                                content: "专业方向，电路控制，单片机，plc"
                             }).then(function() {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢看韩剧和玩手游"
+                                    content: "喜欢看篮球和玩游戏"
                                 }).then(function() {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫cungudafa呢？🤔",
+                                            text: "为什么叫备忘录呢？🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function(a) {
@@ -3936,12 +3936,12 @@ function bot_ui_ini() {
         thirdpart = function() {
             botui.message.add({
                 delay: 1e3,
-                content: "cungudafa是村姑大发的拼音，大发在韩语发音中时很厉害的意思。"
+                content: "因为我经常会忘记事情干脆连自己的博客就叫备忘录好了！"
             }).then(function() {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么叫村姑呢？",
+                        text: "为什么叫Lin呢？",
                         value: "why-cat"
                     }]
                 }).then(function(a) {
@@ -3952,11 +3952,11 @@ function bot_ui_ini() {
         fourthpart = function() {
             botui.message.add({
                 delay: 1e3,
-                content: "我的游戏名叫村姑,后来也有人叫我村姑学姐 "
+                content: "这是我的姓氏，平时也用这个当名字了 "
             }).then(function() {
                 botui.message.add({
                     delay: 1100,
-                    content: "希望自己打游戏很厉害吧，哈哈哈"
+                    content: "主要还是想不出来其它的😂"
                 }).then(function() {
                     botui.action.button({
                         delay: 1500,
@@ -3973,7 +3973,7 @@ function bot_ui_ini() {
         fifthpart = function() {
             botui.message.add({
                 delay: 1e3,
-                content: "emmmm,csdn,github,都是cungudafa哦"
+                content: "苏睿婷是猪🐷"
             }).then(function() {
                 botui.message.add({
                     delay: 1600,
