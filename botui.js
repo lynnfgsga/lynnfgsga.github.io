@@ -3961,7 +3961,7 @@ function bot_ui_ini() {
                     botui.action.button({
                         delay: 1500,
                         action: [{
-                            text: "域名有什么含义吗？",
+                            text: "部署博客有什么意义呢？",
                             value: "why-domain"
                         }]
                     }).then(function(a) {
@@ -3973,7 +3973,7 @@ function bot_ui_ini() {
         fifthpart = function() {
             botui.message.add({
                 delay: 1e3,
-                content: "苏睿婷是猪🐷"
+                content: "是一种兴趣也是对碌碌无为的这段时间留下纪念吧！"
             }).then(function() {
                 botui.message.add({
                     delay: 1600,
