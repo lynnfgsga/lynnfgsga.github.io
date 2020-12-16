@@ -1,3 +1,30 @@
+var xiaokang = new xkTool(param1,param2);
+var xiaokang = new xkTool("transparent");
+
+// 设置随机背景的图片
+xiaokang.imgList = [
+    "https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg",
+    "https://ae01.alicdn.com/kf/Hb4b6a83a124049819bd561439312edc96.jpg",
+    "https://ae01.alicdn.com/kf/H146b0a3e074a4e91b11fcce994098034y.jpg",
+    "https://ae03.alicdn.com/kf/H76674cd5901840be9b12f8596bb649bdP.jpg",
+  ];
+  // 调用随机背景
+xiaokang.randomBg();
+
+xiaokang.footFish();
+xiaokang.aplayer({
+    audio: [
+        {
+            name: "SB",
+            artist: "SB",
+            url: "http://music.163.com/song/media/outer/url?id=574566207.mp3",
+            cover: "SB",
+        },
+    ],
+    fixed: true,
+    mini: true,
+});
+
 $(document).ready(function(e){
     $('.copyright').html('©2020 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> shadow');
 })
