@@ -5,9 +5,6 @@ $(".card-info-social-icons").append(
 );45
 $(".card-info-social-icons").append(
     '<a class="social-icon" href="https://github.com/lynnfgsga/lynnfgsga.github.io/new/main" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-git"></use></svg></a>'
-);
-$(".card-info-social-icons").append(
-    '<a class="social-icon" href="tencent://message/?uin=1725686678&Site=Senlon.Net&Menu=yes" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-QQ"></use></svg></a>'
 );45
 $(".card-info-social-icons").append(
     '<a class="social-icon"https://gitee.com/doyon" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mayun"></use></svg></a>'
@@ -17,10 +14,4 @@ $(".card-info-social-icons").append(
 );45
 $(".card-info-social-icons").append(
     '<a class="social-icon"https://mail.qq.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-youxiang1"></use></svg></a>'
-);45
-$(".card-info-social-icons").append(
-    '<a class="social-icon"https://www.csdn.net/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-csdn"></use></svg></a>'
-);45
-$(".card-info-social-icons").append(
-    '<a class="social-icon"https://hexo.io/zh-cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hexo"></use></svg></a>'
 );45
