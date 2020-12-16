@@ -3973,7 +3973,7 @@ function bot_ui_ini() {
         fifthpart = function() {
             botui.message.add({
                 delay: 1e3,
-                content: "是一种兴趣也是对碌碌无为的这段时间留下纪念吧！"
+                content: "是一种兴趣也是对的这段时间留下的纪念吧！"
             }).then(function() {
                 botui.message.add({
                     delay: 1600,
