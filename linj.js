@@ -2,10 +2,10 @@ var xiaokang = new xkTool("transparent");
 
 // 设置随机背景的图片
 xiaokang.imgList = [
-    "https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg",
-    "https://ae01.alicdn.com/kf/Hb4b6a83a124049819bd561439312edc96.jpg",
-    "https://ae01.alicdn.com/kf/H146b0a3e074a4e91b11fcce994098034y.jpg",
-    "https://ae03.alicdn.com/kf/H76674cd5901840be9b12f8596bb649bdP.jpg",
+    "https://pic.downk.cc/item/5fd9f22e3ffa7d37b36116ad.jpg",
+    "https://pic.downk.cc/item/5fd9f22d3ffa7d37b361163f.png",
+    "https://pic.downk.cc/item/5fd345143ffa7d37b3c634b2.png",
+    "https://pic.downk.cc/item/5fd3450d3ffa7d37b3c62965.jpg",
   ];
   // 调用随机背景
 xiaokang.randomBg();
