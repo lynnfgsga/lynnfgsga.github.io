@@ -1,31 +1,19 @@
 var xiaokang = new xkTool("transparent");
-
 // 设置随机背景的图片
 xiaokang.imgList = [
-    "https://pic.downk.cc/item/5fd9f22e3ffa7d37b36116ad.jpg",
-    "https://pic.downk.cc/item/5fd9f22d3ffa7d37b361163f.png",
-    "https://pic.downk.cc/item/5fd345143ffa7d37b3c634b2.png",
-    "https://pic.downk.cc/item/5fd3450d3ffa7d37b3c62965.jpg",
+    "https://pic.downk.cc/item/5fdab6363ffa7d37b30d2d5a.png",
+    "https://pic.downk.cc/item/5fdab6363ffa7d37b30d2d5d.jpg",
+    "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d3205.jpg",
+    "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d3208.jpg",
+    "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d320a.png",
+    "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d320e.png",
   ];
   // 调用随机背景
-xiaokang.randomBg();
+  xiaokang.randomBg();
 
 xiaokang.footFish();
-xiaokang.aplayer({
-    audio: [
-        {
-            name: "SB",
-            artist: "SB",
-            url: "http://music.163.com/song/media/outer/url?id=574566207.mp3",
-            cover: "SB",
-        },
-    ],
-    fixed: true,
-    mini: true,
-});
-
 $(document).ready(function(e){
-    $('.copyright').html('©2020 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> shadow');
+    $('.copyright').html('©2020 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> Hexo');
 })
 
 $(document).ready(function(e){
