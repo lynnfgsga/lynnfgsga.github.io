@@ -1,4 +1,4 @@
-var xiaokang = new xkTool("transparent");
+var xiaokang = new xkTool();
 // 设置随机背景的图片
 xiaokang.imgList = [
     "https://pic.downk.cc/item/5fdab6363ffa7d37b30d2d5a.png",
