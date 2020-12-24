@@ -7,6 +7,8 @@ xiaokang.imgList = [
     "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d3208.jpg",
     "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d320a.png",
     "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d320e.png",
+    "https://pic.downk.cc/item/5fe492c13ffa7d37b30839d5.png",
+    "https://pic.downk.cc/item/5fe492c13ffa7d37b30839ec.jpg",
   ];
   // 调用随机背景
   xiaokang.randomBg();
@@ -35,6 +37,6 @@ hrsold=Math.floor(e_hrsold);
 e_minsold=(e_hrsold-hrsold)*60;
 minsold=Math.floor((e_hrsold-hrsold)*60);
 seconds=Math.floor((e_minsold-minsold)*60);
-span_dt_dt.innerHTML=' <font style=color:#2d85f0>'+daysold+'</font> 天 <font style=color:#f4433c>'+hrsold+'</font> 时 <font style=color:#ffbc32>'+minsold+'</font> 分 <font style=color:#0aa858>'+seconds+'</font> 秒';
+span_dt_dt.innerHTML=' <font style=color:#00bcd4>'+daysold+'</font> 天 <font style=color:#b2ebf2>'+hrsold+'</font> 时 <font style=color:#ff5722>'+minsold+'</font> 分 <font style=color:#dd2c00>'+seconds+'</font> 秒';
 }
 show_date_time();
