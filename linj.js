@@ -7,7 +7,7 @@ xiaokang.imgList = [
     "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d3208.jpg",
     "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d320a.png",
     "https://pic.downk.cc/item/5fdab63e3ffa7d37b30d320e.png",
-    "https://pic.downk.cc/item/5fe492c13ffa7d37b30839d5.png",
+    "https://img.imgdb.cn/item/600becac3ffa7d37b3b55fa6.png",
     "https://pic.downk.cc/item/5fe492c13ffa7d37b30839ec.jpg",
   ];
   // 调用随机背景
