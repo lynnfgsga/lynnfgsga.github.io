@@ -99,32 +99,12 @@
   /* 修改大小 */
   font-size: 24px;
 }
-  /* 页脚 */
-  #footer {
-    background: rgba(255,255,255,.15);
-    color: #000;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    backdrop-filter: saturate(100%) blur(5px)
-}
-
-#footer::before {
-    background: rgba(255,255,255,.15)
-}
-
-#footer #footer-wrap {
-    color: var(--font-color);
-}
-
-#footer #footer-wrap a {
-    color: var(--font-color);
-}
-/* 彩带 */
-.card-info-avatar:hover {
-  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
-}
 
 /* 花 */
-/* .card-info-avatar:hover {
+ .card-info-avatar:hover {
   background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/20200530181856.gif);
+} 
+/* 彩带 */
+/* .card-info-avatar:hover {
+  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
 } */
